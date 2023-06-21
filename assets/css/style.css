@@ -1,0 +1,29 @@
+.button{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 60px;
+    height: 60px;
+    right: 24px;
+}
+.feedback{
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    right: 0;
+    top: 380px;
+}
+.mensagem{
+    background-color: transparent;
+    border: none;
+}
+.div-imagem{
+    background-color: blue;
+    padding: 10px;
+    border-radius: 80%;
+}
+.imagem-msg {
+   height: 30px;
+   width: 30px;
+}
