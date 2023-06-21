@@ -1,0 +1,84 @@
+body, ul, li, p {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.4rem;
+    font-family: Arial;
+}
+
+a {
+    text-decoration: none;
+    color: #053361;
+}
+
+.header {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.nav-1 {
+    display: flex;
+}
+
+.nav-2 {
+    display: flex;
+}
+
+.menu {
+    display: flex;
+    flex-direction: start;
+    color: #053361;
+}
+
+.menu li {
+    margin-left: 10px;
+}
+
+.menu li a {
+    display: block;
+    padding: 10px;
+}
+
+.nav-2 {
+    display: flex;   
+}
+
+.localizacao {
+    display: flex;
+    padding: 10px;
+}
+
+.header-find-your-store-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-footer-icon {
+    padding: 10px;
+}
+
+.nav-2 li {
+    padding: 10px;
+}
+
+#header-my-profile-button {
+    background-color: transparent;
+    border: none;
+}
+
+#header-saved-cars-button {
+    background-color: transparent;
+    border: none;
+}
+
+#header-my-store-button-zipCode {
+    font-size: 1.0rem;
+    margin: ;
+}
+
+svg {
+    height: 35px;
+}
